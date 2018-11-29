@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.tact</groupId>
-	<artifactId>spring-base-rest</artifactId>
+	<artifactId>spring-base-rest-vinay</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-base-rest</name>
+	<name>spring-base-rest-vinay</name>
 	<description>Spring Boot Rest Base Project</description>
 
 	<parent>

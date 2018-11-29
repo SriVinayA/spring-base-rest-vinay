@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/base")
 public class BaseController {
 	
-    @RequestMapping(value = "", method = RequestMethod.GET)
+    @RequestMapping(value = "/murali", method = RequestMethod.GET)
     public <T> T listUsers() {
         Map<String, Object> map = new LinkedHashMap<String, Object>();
-        map.put("one", "two");
-        map.put("three", "four");
-        map.put("five", "six");
-        map.put("seven", "eight");
+        map.put("name", "Murali");
+        map.put("movie_name", "Srimanthudu");
+        map.put("place", "Chirala");
+        map.put("age", "50");
         
         return (T) map;
     }
